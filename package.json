@@ -1,0 +1,25 @@
+{
+  "name": "card-games-types",
+  "version": "0.0.1",
+  "description": "package that exposes types for creating card games ",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperBackPear3/card-games-types.git"
+  },
+  "keywords": [
+    "games",
+    "cards",
+    "typescript",
+    "types"
+  ],
+  "author": "PaperBackPear3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaperBackPear3/card-games-types/issues"
+  },
+  "homepage": "https://github.com/PaperBackPear3/card-games-types#readme"
+}
