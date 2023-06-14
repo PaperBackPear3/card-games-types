@@ -5,7 +5,7 @@ import { playerData } from "./player";
 export type roomData = {
     owner: string,
     players: Map<string, playerData>,
-    deck: Deck[],
+    deck: Deck,
     gameStarted: boolean,
     gameEnded: boolean,
 }
