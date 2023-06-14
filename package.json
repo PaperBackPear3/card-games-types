@@ -1,6 +1,6 @@
 {
   "name": "card-games-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "package that exposes types for creating card games ",
   "main": "index.ts",
   "scripts": {
