@@ -2,6 +2,7 @@ import { playerData } from "./player";
 import { RoomMessageData } from "./room";
 import { BetAction, SkipAction, DrawAction } from "./game-actions";
 import { MessageData } from "./message";
+import { Card } from "./cards";
 
 export interface ServerToClientEvents {
     noArg: () => void;
@@ -9,7 +10,7 @@ export interface ServerToClientEvents {
     withAck: (d: string, callback: (e: number) => void) => void;
     clientRoomId: (data: string) => void;
     roomEvent: (data: MessageData) => void;
-    updatePlayerCardsEvent: (data: playerData) => void;
+    updatePlayerCardsEvent: (data: Card[]) => void;
 }
 
 export interface ClientToServerEvents {
